@@ -14,40 +14,22 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/creightonleif/`,
     // Content of the About Me section
     about: `I've been in back-office IT since I was 16. I've done everyting from Help Desk, Client Engineering, VMware, Storage, Exchange & most recently Cloud (Azure).  I've experienced many 'weird' scenario's of which basic documentation doesn't always cover. I'll post about them here. Read it or don't. This is therapy for me :D`,
-    // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    projects: [
-      {
-        name: 'Devfolio',
-        description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'ChromeExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-    ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
         name: 'Cloud Architect',
         description: 'Cloud Architecture focusing on Core Services, Data, Security & Desktops',
+        link: ''
       },
       {
         name: 'Infrastructure Engineering',
         description: 'Fortune 200 Manufacturing & Finance Industries doing VMware Infrastructure, Storage, DR & Exchange',
+        link: ''
       },
       {
         name: 'Help Desk, Client Engineering & System Administration',
         description: '.Edu space for Jr. Colleges & Private Liberal Arts Colleges in the Midwest',
+        link: ''
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
