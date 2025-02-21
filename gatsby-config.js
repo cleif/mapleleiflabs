@@ -3,9 +3,9 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://mapleleiflabs.github.io/`,
     // Your Name
-    name: 'Creighton Leif',
+    name: 'Maple Leif Labs',
     // Main Site Title
-    title: `MapleLeif Labs | Azure, DevOps & Other Infrastructure Gotachas & Fixes`,
+    title: `Maple Leif Labs | Azure, DevOps & Other Infrastructure Gotachas & Fixes`,
     // Description that goes under your name in main bio
     // Optional: Twitter account handle
     // Optional: Github account URL
@@ -87,13 +87,13 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-postcss`,
-    `gatsby-plugin-feed`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `ADD YOUR TRACKING ID HERE`, // Optional Google Analytics
-      },
-    },
+    // `gatsby-plugin-feed`,
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: `ADD YOUR TRACKING ID HERE`, // Optional Google Analytics
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

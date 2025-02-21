@@ -1,7 +1,7 @@
 ---
-title: My Fourth Blog Post
-date: '2020-10-12T12:00:00.00Z'
-description: 'Unde reprehenderit inventore sunt, consequatur'
+title: Importing & Consuming Organization Owned IPs in Azure
+date: '2025-02-18T12:00:00.00Z'
+description: 'Trial & Error to successfully get Corporate Owned IPs utilized in Azure'
 ---
 
 ## Lorem ipsum dolor sit amet consectetur adipisicing elit

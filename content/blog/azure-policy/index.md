@@ -1,7 +1,7 @@
 ---
-title: My Third Blog Post
-date: '2020-10-10T12:00:00.00Z'
-description: 'Dolor inventore quasi necessitatibus odio eaque doloribus'
+title: Azure Policy to Change User Behavior
+date: '2025-01-18T12:00:00.00Z'
+description: 'How being petty improved our Azure governance'
 ---
 
 ## Lorem ipsum dolor sit amet consectetur adipisicing elit
