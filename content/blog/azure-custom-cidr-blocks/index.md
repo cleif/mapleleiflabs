@@ -159,14 +159,22 @@ Microsoft suggests the following pattern for Custom IP Prefixes
 2. Commission each regional custom IP prefix and test connectivity to the IPs within the region. Repeat for each regional custom IP prefix.
 3. Commission the global custom IP prefix, which advertises the larger range to the Internet. Complete this step only after verifying all regional custom IP prefixes (and derived prefixes/IPs) work as expected.
 
+We additionally had to trigger manual `-Commission` flagged commands (seen below) in order to finally get Azure to start advertising these IPs correctly.  You may or may not need this.
+
+```PowerShell
+Update-AzCustomIpPrefix -Name <your-regional-cidr> -ResourceGroupName <your-regional-cidr-rg> -Commission
+
+Update-AzCustomIpPrefix -Name <your-global-cidr> -ResourceGroupName <your-global-cidr-rg> -Commission
+```
+
 Global CIDR in a Provisioned state:
 ![global_provisioned](./global_cidr_provisioned.jpeg)
 Regional CIDR in a Commissioned state, but Not Internet Advertised:
 ![regional_commissioned_noadvert](./regional_commissioned_noadvert.jpeg)
 Regional CIDR in an Advertised state:
-![regional_advertised](./regional_advertised.jpeg)
+![regional_advertised](./regional_advertised.png)
 Global CIDR in an Advertised state:
-![global_advertised](./global_advertised.jpeg)
+![global_advertised](./global_advertised.png)
 
 ### Using IPs
 
@@ -208,7 +216,4 @@ Once this IP resource is created, it can be consumed by any service which suppor
 
 #### Additional Notes
 
-Support was mid at best with this service. It doesn't seem like they had a lot of experience with this.
-
-Take your time, and really follow the docs provided by Microsoft, they have lots extra detail.
-
+There was quite a few hoops, we internally needed to get through, that not everyone will encounter. I've left most of that out of this post.  Just be sure you all your legal paperwork with whatever Registar you use is in order to not deal with any failures relating to "ownership" concerns.
