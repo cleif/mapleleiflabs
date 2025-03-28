@@ -13,7 +13,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/creightonleif/`,
     // Content of the About Me section
-    about: `I've been in back-office IT since I was 16. I've done everyting from Help Desk, Client Engineering, VMware, Storage, Exchange & most recently Cloud (Azure).  I've experienced many 'weird' scenario's of which basic documentation doesn't always cover. I'll post about them here. Read it or don't. This is therapy for me :D. Thanks to Ryan for the Devlio template. (https://github.com/RyanFitzgerald/devfolio?tab=readme-ov-file#devfolio)`,
+    about: ``,
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
